@@ -1,0 +1,21 @@
+[
+    {
+        "titulo": "Hacer ejercicio",
+        "estado": "En progreso"
+    },
+
+    {
+        "titulo": "practicar",
+        "estado": "En progreso"
+    },
+
+    {
+        "titulo": "limpiar",
+        "estado": "terminada"
+    },
+
+    {
+        "titulo": "salir a comer",
+        "estado": "pendiente"
+    }
+]

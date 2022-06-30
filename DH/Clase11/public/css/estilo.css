@@ -1,0 +1,270 @@
+*{  margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+   background-color: #ebebeb;
+}
+
+.barraBuscar{
+    display: flex;
+    position: relative;
+    margin: 0px;
+    
+}
+
+.listas_ul{ 
+    color: white;
+    font-size: 20px;
+    text-align:left ;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.listas_ul a {
+    text-decoration: none;
+    color: black
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+
+header {
+    background-color: #EAC926;
+    font-family: 'Roboto';
+}
+
+.img_footer{
+    color: #0044AA;;
+    text-align: center;
+    bottom: 10px;
+    font-size: 2em;
+    
+}
+
+.text_footer{
+    text-align: center;
+      
+}
+
+#compra{
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer_tarjeta{
+    text-align: center;
+
+}
+
+h3{
+    font-size: 24px;
+    color:#666;
+}
+.ofertas{
+    font-size: 24px;
+    color:#666;
+}
+
+.precios{
+    font-size: 18px;
+    width: 30%;
+   
+   
+}
+
+.descuentos{
+    font-size: 16px;
+    color: green;
+    width: 70%;
+    
+}
+
+.descripcion{
+    font-size: 16px;
+    color: grey
+}
+
+.footer{
+    text-align: center;
+}
+
+main{
+    width: 90%;
+    background-color: #ebebeb;
+    margin: auto;
+}
+
+
+.ultimaVisita{
+    margin: 10px;
+    background-color: white;
+    
+}
+
+.ultimaVisita img{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.fa-solid fa-truck-fast{
+    color: green;
+}
+
+.seccionOfertas{
+    margin: 10px;
+    background-color: white;
+    padding: 15px;
+
+}
+
+.seccionOfertas img{
+    border-bottom: 1px solid #ebebeb;
+}
+
+#truckEnvio{
+    color:green;
+    border: 1px solid green;
+    border-radius: 100%;
+    padding: 2%;
+    
+
+
+ 
+    
+    /*margin: 15px;
+    border: solid 1px #39b54a;
+    border-radius: 100%;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;*/
+
+}
+
+img{
+    width: 100%;
+}
+
+.descripcionProductos{
+    padding: 15px;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+        
+}
+
+
+main section div p i {
+    position: absolute;
+    top: -30px;
+    right: 20px;
+}
+
+@media (min-width: 361px) {
+    section{
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+    .descripcionProductos{
+        padding: 10px;
+        position: relative;
+        flex-wrap: wrap;
+        display: flex;
+    
+        margin: auto;
+            
+    }
+    .descuentos{
+        font-size: 16px;
+        color: green;
+        width: 50%;
+                
+    }
+
+    .precios{
+        font-size: 18px;
+        width: 50%;
+                     
+    }
+    h3{
+        margin-left: 6%;
+    }
+
+    
+}
+
+@media (min-width: 769px) {
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .descripcionProductos{
+        padding: 10px;
+        position: relative;
+        flex-wrap: wrap;
+        display: flex;
+        margin: auto;
+            
+    }
+    .descuentos{
+        font-size: 16px;
+        color: green;
+        width: 50%;
+                
+    }
+
+    .precios{
+        font-size: 18px;
+        width: 50%;
+                     
+    }
+    h3{
+        margin-left: 6%;
+    }
+
+    
+}
+
+.divRegister {
+    margin: 15%;
+   
+}
+
+.formRegister{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25%;
+}
